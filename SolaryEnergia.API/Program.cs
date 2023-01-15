@@ -1,4 +1,9 @@
+using SolaryEnergia.Infra.DataBase;
+
 var builder = WebApplication.CreateBuilder(args);
+
+//ver
+builder.Services.AddDbContext<SolaryDbContext>();
 
 // Add services to the container.
 

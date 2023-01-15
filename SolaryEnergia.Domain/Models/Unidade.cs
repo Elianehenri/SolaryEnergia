@@ -29,5 +29,7 @@ namespace SolaryEnergia.Domain.Models
             Modelo = modelo;
             IsActive = isActive;
         }
+
+        
     }
 }

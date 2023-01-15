@@ -32,7 +32,7 @@ namespace SolaryEnergia.Infra.DataBase.Mappings
 
             builder
                 .Property (n => n.Password)
-                .HasColumnType ("Password")
+                .HasColumnType ("VARCHAR")
                 .HasMaxLength (64)
                 .IsRequired();
 

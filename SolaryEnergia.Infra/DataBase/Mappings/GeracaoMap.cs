@@ -13,7 +13,7 @@ namespace SolaryEnergia.Infra.DataBase.Mappings
     {
         public void Configure(EntityTypeBuilder<Geracao> builder)
         {
-            builder.ToTable("Geraçoes");
+            builder.ToTable("Geracoes");
 
             builder.HasKey(g => g.Id);
 
