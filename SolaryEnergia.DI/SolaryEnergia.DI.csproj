@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Ioc\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SolaryEnergia.Domain\SolaryEnergia.Domain.csproj" />
+    <ProjectReference Include="..\SolaryEnergia.Infra\SolaryEnergia.Infra.csproj" />
+  </ItemGroup>
+
+</Project>
