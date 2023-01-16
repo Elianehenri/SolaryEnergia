@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SolaryEnergia.Domain.DTOs;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -30,6 +31,23 @@ namespace SolaryEnergia.Domain.Models
             IsActive = isActive;
         }
 
-        
+        public Unidade(UnidadeDto unidade)
+        {
+            Id = unidade.Id;
+            Apelido = unidade.Apelido;
+            Local = unidade.Local;
+            Marca = unidade.Marca;
+            Modelo = unidade.Modelo;
+            IsActive = unidade.IsActive;    
+        }
+
+        public void Update(UnidadeDto unidade)
+        {
+            Apelido = unidade.Apelido;
+            Local = unidade.Local;
+            Marca = unidade.Marca;
+            Modelo = unidade.Modelo;
+            IsActive = unidade.IsActive;
+        }
     }
 }
