@@ -1,13 +1,18 @@
+using SolaryEnergia.DI.Ioc;
 using SolaryEnergia.Infra.DataBase;
 
 var builder = WebApplication.CreateBuilder(args);
 
 //ver
-builder.Services.AddDbContext<SolaryDbContext>();
+//builder.Services.AddDbContext<SolaryDbContext>();
 
 // Add services to the container.
+builder.Services.RegistreReposotories();
+builder.Services.RegistreServices();
+
 
 builder.Services.AddControllers();
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

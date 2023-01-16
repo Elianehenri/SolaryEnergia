@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SolaryEnergia.Domain.DTOs;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Permissions;
@@ -22,6 +23,20 @@ namespace SolaryEnergia.Domain.Models
             Id = id;
             Data = data;
             Kw = kw;
+        }
+
+        public Geracao(GeracaoDto geracao)
+        {
+            Id = geracao.Id;
+            Data = geracao.Data;
+            Kw = geracao.Kw;
+            UnidadeId = geracao.UnidadeId;
+        }
+        public void Update(GeracaoDto geracao)
+        {
+            Data = geracao.Data;
+            Kw = geracao.Kw;
+            UnidadeId = geracao.UnidadeId;
         }
     }
 }

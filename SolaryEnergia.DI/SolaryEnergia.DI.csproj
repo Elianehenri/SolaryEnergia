@@ -7,10 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Ioc\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\SolaryEnergia.Domain\SolaryEnergia.Domain.csproj" />
     <ProjectReference Include="..\SolaryEnergia.Infra\SolaryEnergia.Infra.csproj" />
   </ItemGroup>
