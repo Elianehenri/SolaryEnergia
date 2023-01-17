@@ -17,9 +17,9 @@ namespace SolaryEnergia.DI.Ioc
         {
             return builder
                .AddScoped<IGeracaoService, GeracaoService>()
-               .AddScoped<IUnidadeService, UnidadeService>();
-                
-                
+               .AddScoped<IUnidadeService, UnidadeService>()
+               .AddScoped<IUserService, UserService>();
+
         }
     }
 }

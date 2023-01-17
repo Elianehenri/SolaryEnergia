@@ -17,7 +17,8 @@ namespace SolaryEnergia.DI.Ioc
             return builder
                 .AddScoped<SolaryDbContext>()
                 .AddScoped<IGeracaoRepository, GeracaoRepository>()
-                .AddScoped<IUnidadeRepository, UnidadeRepository>();
+                .AddScoped<IUnidadeRepository, UnidadeRepository>()
+                .AddScoped<IUserRepository, UserRepository>();
         }
     }
 }

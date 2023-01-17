@@ -1,4 +1,5 @@
-﻿using SolaryEnergia.Domain.Enuns;
+﻿using SolaryEnergia.Domain.DTOs;
+using SolaryEnergia.Domain.Enuns;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,6 +25,22 @@ namespace SolaryEnergia.Domain.Models
             Email = email;
             Password = password;
             Role = role;
+        }
+        public User(UserDto user) 
+        { 
+            Id = user.Id;
+            Nome = user.Nome;
+            Email = user.Email;
+            Password = user.Password;
+            Role = user.Role;
+        }
+        public void Update(UserDto user)
+        {
+            Id = user.Id;
+            Nome = user.Nome;
+            Email = user.Email;
+            Password = user.Password;
+            Role = user.Role;
         }
     }
 }
