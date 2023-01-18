@@ -8,7 +8,7 @@ Projeto de Cadastro de Unidades Solares utilizando  C# no BackEnd e SQL Server n
 <li>Para executar esse projeto: 
          abra o terminal na pasta onde deseja clonar o projeto.</li>
 </ul>
-#
+
 ```` bash
 #clone este repsoitorio
 
@@ -21,7 +21,11 @@ a ConnectionString, seguindo o exemplo 👇<br>
     "ConexaoBanco": "Server=localhost\\SQLEXPRESS;Database=SolaryEnergia;Trusted_Connection=True;"
   }
   ```
-#
+
   <li> Com o SQL Server local conectado , digite no terminal o comando 
   <code> dotnet ef database update ou dotnet ef --startup-project ../SolaryEnergia.API/ database update <code></li>
   <li>Execute o projeto<code> dotnet run </code></li>
+
+<h3> Tabelas</h3>
+<li>  ![image](https://user-images.githubusercontent.com/91481509/213174898-530ec974-0b16-4993-8357-42b57dc0e445.png)
+</li>
