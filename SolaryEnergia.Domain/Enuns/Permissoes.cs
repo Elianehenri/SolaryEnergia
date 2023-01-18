@@ -23,10 +23,10 @@ namespace SolaryEnergia.Domain.Enuns
         {
             string displayName;
             displayName = enumValue.GetType()
-            .GetMember(enumValue.ToString())
-            .First()
-            ?.GetCustomAttribute<DisplayAttribute>()
-            ?.GetName();
+              .GetMember(enumValue.ToString())
+              .First()
+              ?.GetCustomAttribute<DisplayAttribute>()
+              ?.GetName();
 
             if (String.IsNullOrEmpty(displayName))
             {

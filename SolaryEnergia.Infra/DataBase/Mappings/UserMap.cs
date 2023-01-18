@@ -37,8 +37,10 @@ namespace SolaryEnergia.Infra.DataBase.Mappings
                 .IsRequired();
 
             builder
-                .Property(N => N.Role)
-                .HasDefaultValue(Permissoes.User);
+                 .Property(u => u.Role)
+                        .HasMaxLength(50)
+                        .IsRequired();
+
 
 
         }
