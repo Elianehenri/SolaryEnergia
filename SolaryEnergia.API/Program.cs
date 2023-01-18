@@ -33,7 +33,7 @@ builder.Services.AddSwaggerGen(options =>
         {
             Title = "SolaryEnergia.Api",
             Version = "v1",
-            Description = "Api desenvolvida em C# Solar Energy!",
+            Description = "Api desenvolvida em C# Solary Energia!",
             Contact = new OpenApiContact
             {
                 Name = "Eliane de Lima Henriqueta",
