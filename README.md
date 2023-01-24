@@ -23,7 +23,13 @@ a ConnectionString, seguindo o exemplo 👇<br>
   ```
 
   <li> Com o SQL Server local conectado , digite no terminal o comando :
-  <code>$ dotnet ef database update ou dotnet ef --startup-project ../SolaryEnergia.API/ database update <code></li>
-  <li>Execute o projeto<code>$ dotnet run </code></li>
+ 
+   ```bash
+   $ dotnet ef database update ou dotnet ef --startup-project ../SolaryEnergia.API/ database update
+  ```</li>
+  <li>Execute o projeto<code>
+        ```bash  
+         $ dotnet run 
+          ```bash</code></li>
 
 
