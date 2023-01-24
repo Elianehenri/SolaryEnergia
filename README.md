@@ -44,6 +44,6 @@ a ConnectionString, seguindo o exemplo 👇</li><br>
    ```bash  
     $ dotnet run 
    ```
-       
+
 
 
