@@ -2,7 +2,7 @@
 
 Projeto de Cadastro de Unidades Solares utilizando  C# no BackEnd e SQL Server no banco de dados.
 #
-<h4>Estou fazendo o back desse projeto, o front foi feito com Angular(git: )</4>
+<h4>Estou fazendo o back do projeto SolaryEnergia, o front foi feito com Angular( ```` bash git: git@github.com:Elianehenri/SolaryEnergiaFront.git ````)</4>
 #
 <ul>
 <li>Para executar esse projeto: 
