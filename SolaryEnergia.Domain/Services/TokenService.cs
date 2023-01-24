@@ -6,6 +6,7 @@ using System.Text;
 using SolaryEnergia.Domain.Security;
 using SolaryEnergia.Domain.Enuns;
 using System.Security.Cryptography;
+using SolaryEnergia.Domain.Extensions;
 
 namespace SolaryEnergia.Domain.Services
 {

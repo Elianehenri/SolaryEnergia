@@ -1,6 +1,6 @@
 ﻿using SolaryEnergia.Domain.DTOs;
 using SolaryEnergia.Domain.Enuns;
-
+using SolaryEnergia.Domain.Extensions;
 
 namespace SolaryEnergia.Domain.Services
 {
