@@ -10,7 +10,8 @@ Projeto de Cadastro de Unidades Solares utilizando  C# no BackEnd e SQL Server n
 
 #
  ```` bash 
- $ git: git@github.com:Elianehenri/SolaryEnergiaFront.git 
+ #endereço do  repositorio do front
+ $  git@github.com:Elianehenri/SolaryEnergiaFront.git 
  ````
  
 #
@@ -20,7 +21,7 @@ Projeto de Cadastro de Unidades Solares utilizando  C# no BackEnd e SQL Server n
 </ul>
 
 ```` bash
-#clone este repsoitorio
+#clone este repositorio
 
 $ git clone git@github.com:Elianehenri/SolaryEnergia.git 
 ````
@@ -40,8 +41,9 @@ a ConnectionString, seguindo o exemplo 👇</li><br>
   ``` 
   <li>Execute o projeto<code></code></li>
   
-        ```bash  
-         $ dotnet run 
-          ```
+   ```bash  
+    $ dotnet run 
+   ```
+       
 
 
