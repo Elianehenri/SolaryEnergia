@@ -48,6 +48,8 @@ a ConnectionString, seguindo o exemplo 👇</li><br>
 <div align="center" width="100%">
 <img class="logo-nav" height="45%" width="45%" src="/imagem.png" alt="img imagem">
 <img class="logo-nav" height="45%" width="45%" src="imagem1.png" alt="img imagem1">
+ <img class="logo-nav" height="45%" width="45%" src="imagem2.png" alt="img imagem2">
+ <img class="logo-nav" height="45%" width="45%" src="imagem3.png" alt="img imagem3">
  </div>
 
 
