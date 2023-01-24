@@ -9,7 +9,9 @@ Projeto de Cadastro de Unidades Solares utilizando  C# no BackEnd e SQL Server n
 
 
 #
- ```` bash git: git@github.com:Elianehenri/SolaryEnergiaFront.git ````
+ ```` bash 
+ $ git: git@github.com:Elianehenri/SolaryEnergiaFront.git 
+ ````
  
 #
 <ul>
