@@ -2,7 +2,18 @@
 
 Projeto de Cadastro de Unidades Solares utilizando  C# no BackEnd e SQL Server no banco de dados.
 #
-<h4>Estou fazendo o back desse projeto, o front foi feito com Angular(git: )</4>
+
+<ul>
+ <h4>Estou fazendo o back do projeto SolaryEnergia, o front foi feito com Angular.</4>
+</ul>
+
+
+#
+ ```` bash 
+ #endereço do  repositorio do front
+ $  git@github.com:Elianehenri/SolaryEnergiaFront.git 
+ ````
+ 
 #
 <ul>
 <li>Para executar esse projeto: 
@@ -10,7 +21,7 @@ Projeto de Cadastro de Unidades Solares utilizando  C# no BackEnd e SQL Server n
 </ul>
 
 ```` bash
-#clone este repsoitorio
+#clone este repositorio
 
 $ git clone git@github.com:Elianehenri/SolaryEnergia.git 
 ````
@@ -30,8 +41,9 @@ a ConnectionString, seguindo o exemplo 👇</li><br>
   ``` 
   <li>Execute o projeto<code></code></li>
   
-        ```bash  
-         $ dotnet run 
-          ```
+   ```bash  
+    $ dotnet run 
+   ```
+
 
 
