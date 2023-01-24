@@ -46,8 +46,8 @@ a ConnectionString, seguindo o exemplo 👇</li><br>
    ```
    
 <div align="center" width="100%">
-<img class="logo-nav" height="45%" width="45%" src="master/imagem.png" alt="img imagem">
-<img class="logo-nav" height="45%" width="45%" src="SolaryEnergia/blob/master/imagem1.png" alt="img imagem1">
+<img class="logo-nav" height="45%" width="45%" src="/imagem.png" alt="img imagem">
+<img class="logo-nav" height="45%" width="45%" src="/blob/master/imagem1.png" alt="img imagem1">
  </div>
 
 
