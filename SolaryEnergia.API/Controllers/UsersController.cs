@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using SolaryEnergia.Domain.DTOs;
 using SolaryEnergia.Domain.Interfaces.Services;
 using SolaryEnergia.Domain.Services;
-using System.Data;
+
 
 namespace SolaryEnergia.API.Controllers
 {

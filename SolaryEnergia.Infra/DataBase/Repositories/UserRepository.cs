@@ -13,5 +13,7 @@ namespace SolaryEnergia.Infra.DataBase.Repositories
         public UserRepository(SolaryDbContext context) : base(context) 
         { 
         }
+
+       
     }
 }

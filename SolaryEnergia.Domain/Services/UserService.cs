@@ -42,18 +42,33 @@ namespace SolaryEnergia.Domain.Services
         }
 
 
+
         public void Post(UserDto user)
         {
-            if (UserJaRegistered(user))
-                throw new Exception("Usuário já cadastrado!");
+            if (user != null)
+            {
 
-            _userRepository.Post(new User(user));
+                user.Password = Utils.MD5Utils.GerarHashMD5(user.Password);
+                user.Email = user.Email.ToLower();
+
+                if (VerificarEmail(user))
+                {
+                   
+                    throw new UserJaCadastradoException("Usuário já cadastrado!");
+                }
+                _userRepository.Post(new User(user));
+            }
         }
-        private bool UserJaRegistered(UserDto user)
+
+        private bool VerificarEmail(UserDto user)
         {
+
             bool existsUser = _userRepository.Get().Any(u => u.Email == user.Email);
             return existsUser;
         }
+
+
+      
 
         public void Put(UserDto user)
         {
@@ -101,5 +116,6 @@ namespace SolaryEnergia.Domain.Services
             return new Tuple<string, string>(newToken, newRefreshToken);
         }
 
+       
     }
 }

@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace SolaryEnergia.Domain.Exceptions
 {
-    public class UserNaoCadastradoException : Exception
+   public class UserJaCadastradoException:Exception
     {
-        public UserNaoCadastradoException(string erro) : base(erro)
+        public UserJaCadastradoException(string erro) : base(erro)
         {
-        
         }
     }
 }

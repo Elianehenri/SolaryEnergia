@@ -14,5 +14,6 @@ namespace SolaryEnergia.Domain.Interfaces.Repositories
         void Post(User user);
         void Put(User user);
         void Delete(User user);
+       
     }
 }
