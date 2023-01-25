@@ -38,9 +38,17 @@ namespace SolaryEnergia.Domain.Services
 
         public GeracaoDto GetById(int id)
         {
+            var geracaoDb = _geracaoRepository.GetById(id);
+
+            if (geracaoDb == null) 
+            {
+                throw new GeracaoNaoCadastradaException("Geraçao nao cadastrada!");
+            }
+
             return new GeracaoDto(_geracaoRepository.GetById(id));
         }
 
+      
         public void Post(GeracaoDto geracao)
         {
             if (UnidadeEhAtiva(geracao.UnidadeId))

@@ -24,7 +24,9 @@ namespace SolaryEnergia.Domain.Services
         public void Delete(int id)
         {
             var userDb = _userRepository.GetById(id);
-            _userRepository.Delete(userDb);
+            if (userDb == null)
+                throw new UserNaoCadastradoException("Usuario nao cadastrado!");
+                _userRepository.Delete(userDb);
         }
 
         public IList<UserDto> Get()

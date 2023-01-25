@@ -1,4 +1,5 @@
 ﻿using SolaryEnergia.Domain.DTOs;
+using SolaryEnergia.Domain.Exceptions;
 using SolaryEnergia.Domain.Interfaces.Repositories;
 using SolaryEnergia.Domain.Interfaces.Services;
 using SolaryEnergia.Domain.Models;
@@ -34,12 +35,20 @@ namespace SolaryEnergia.Domain.Services
 
         public UnidadeDto GetById(int id)
         {
+            var undDb = _unidadeRepository.GetById(id);
+            if (undDb == null)
+            {
+                throw new UnidadeInativaException("unidade nao cadastrada!");
+            }
+            
             return new UnidadeDto(_unidadeRepository.GetById(id));
         }
 
         public void Post(UnidadeDto unidade)
         {
-            _unidadeRepository.Post(new Models.Unidade(unidade));
+     
+
+            _unidadeRepository.Post(new Unidade(unidade));
         }
 
         public void Put(UnidadeDto unidade)

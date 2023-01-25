@@ -7,12 +7,8 @@ using System.Threading.Tasks;
 
 namespace SolaryEnergia.Domain.Interfaces.Repositories
 {
-    public interface IUnidadeRepository
+    public interface IUnidadeRepository : IBaseRepository<Unidade, int>
     {
-        IList<Unidade> Get();
-        Unidade GetById(int id);
-        void Post(Unidade unidade);
-        void Put(Unidade unidade);
-        void Delete(Unidade unidade);
+        
     }
 }

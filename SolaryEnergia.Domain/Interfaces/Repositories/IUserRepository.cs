@@ -7,13 +7,9 @@ using System.Threading.Tasks;
 
 namespace SolaryEnergia.Domain.Interfaces.Repositories
 {
-    public interface IUserRepository
+    public interface IUserRepository : IBaseRepository<User, int>
     {
-        IList<User> Get();
-        User GetById(int id);
-        void Post(User user);
-        void Put(User user);
-        void Delete(User user);
+        
        
     }
 }
