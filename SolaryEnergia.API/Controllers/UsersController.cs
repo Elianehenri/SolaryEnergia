@@ -44,22 +44,24 @@ namespace SolaryEnergia.API.Controllers
         [HttpPut("{idUser}")]
         public IActionResult UpdateUser(
         [FromRoute] int idUser,
-        [FromBody] UserDto user
-    )
+        [FromBody] UserDto user)
         {
             user.Id = idUser;
             _userService.Put(user);
             return Ok();
         }
 
+        
         [Authorize(Roles = "Admin")]
         [HttpDelete("{idUser}")]
         public IActionResult DeleteUser(
-       [FromRoute] int idUser
-   )
+        [FromRoute] int idUser)
         {
             _userService.Delete(idUser);
             return NoContent();
         }
     }
+    
+    
 }
+

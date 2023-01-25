@@ -15,7 +15,8 @@ namespace SolaryEnergia.Domain.Interfaces.Services
         void Post(UserDto user);
         void Put(UserDto user);
         void Delete(int id);
- 
+      
+
         Tuple<string, string, string> GetUser(LoginDto login);
         Tuple<string, string> RefreshToken(string token, string refreshToken);
     }

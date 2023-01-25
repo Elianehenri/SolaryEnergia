@@ -42,19 +42,18 @@ namespace SolaryEnergia.API.Controllers
         [HttpPut("{id}")]
         public IActionResult Put(
         [FromBody] UnidadeDto unidadeDto,
-        [FromRoute] int id
-    )
+        [FromRoute] int id)
         {
             unidadeDto.Id = id;
             _unidadeService.Put(unidadeDto);
 
             return Ok();
         }
+
         [HttpDelete("{id}")]
         [Authorize(Roles = "Admin")]
         public ActionResult Delete(
-        [FromRoute] int id
-    )
+        [FromRoute] int id)
         {
             _unidadeService.Delete(id);
             return NoContent();

@@ -23,8 +23,8 @@ namespace SolaryEnergia.Domain.Services
 
         public void Delete(int id)
         {
-            UserDto userDb = GetById(id);
-            _userRepository.Delete(new User(userDb));
+            var userDb = _userRepository.GetById(id);
+            _userRepository.Delete(userDb);
         }
 
         public IList<UserDto> Get()
@@ -45,19 +45,16 @@ namespace SolaryEnergia.Domain.Services
 
         public void Post(UserDto user)
         {
-            if (user != null)
+            user.Password = Utils.MD5Utils.GerarHashMD5(user.Password);
+            user.Email = user.Email.ToLower();
+
+            if (VerificarEmail(user))
             {
 
-                user.Password = Utils.MD5Utils.GerarHashMD5(user.Password);
-                user.Email = user.Email.ToLower();
-
-                if (VerificarEmail(user))
-                {
-                   
-                    throw new UserJaCadastradoException("Usuário já cadastrado!");
-                }
-                _userRepository.Post(new User(user));
+                throw new UserJaCadastradoException("Usuário já cadastrado!");
             }
+            _userRepository.Post(new User(user));
+
         }
 
         private bool VerificarEmail(UserDto user)
@@ -68,7 +65,7 @@ namespace SolaryEnergia.Domain.Services
         }
 
 
-      
+
 
         public void Put(UserDto user)
         {
@@ -116,6 +113,6 @@ namespace SolaryEnergia.Domain.Services
             return new Tuple<string, string>(newToken, newRefreshToken);
         }
 
-       
+
     }
 }
