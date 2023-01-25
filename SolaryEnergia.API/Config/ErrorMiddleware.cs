@@ -43,6 +43,16 @@ namespace SolaryEnergia.API.Config
                 status = HttpStatusCode.Forbidden;
                 message = ex.Message;
             }
+            else if (ex is UserJaCadastradoException)
+            {
+                status = HttpStatusCode.Forbidden;
+                message = ex.Message;
+            }
+            else if (ex is GeracaoNaoCadastradaException)
+            {
+                status = HttpStatusCode.Forbidden;
+                message = ex.Message;
+            }
             else
             {
                 status = HttpStatusCode.InternalServerError;
