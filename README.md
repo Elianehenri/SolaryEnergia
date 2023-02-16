@@ -1,22 +1,10 @@
 # SolaryEnergia     
 
 
-
-    
-  <p align="center">
- <a href="#-sobre-o-projeto">Sobre</a> •
- <a href="#-funcionalidades">Funcionalidades</a> •
- <a href="#-layout">Layout</a> • 
- <a href="#-como-executar-o-projeto">Como executar</a> • 
- <a href="#-tecnologias">Tecnologias</a> • 
- <a href="#-autor">Autor</a> • 
- <a href="#user-content--licença">Licença</a>
-</p>
-
 Projeto de Cadastro de Unidades Solares utilizando  C# no BackEnd e SQL Server no banco de dados.
-#
 
-##Tecnologias 
+<p style="margin-top: 20px">
+
 <h2>🛠️ Tecnologias </h2>  
 <ul>
     <li>C#</li>
@@ -30,7 +18,7 @@ Projeto de Cadastro de Unidades Solares utilizando  C# no BackEnd e SQL Server n
 </ul>
 
 ```` bash
-#clone este repositorio
+#clone o repositorio
 
 $ git clone git@github.com:Elianehenri/SolaryEnergia.git 
 ````
