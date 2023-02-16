@@ -1,23 +1,20 @@
 # SolaryEnergia     
-
+<h1 align="center">
+    <img alt="ProShop" title="#ProShop" src="./github/logo.png" />
+</h1>
 Projeto de Cadastro de Unidades Solares utilizando  C# no BackEnd e SQL Server no banco de dados.
 #
 
+<h2>🛠️ Tecnologias Usadas</h2>  
 <ul>
- <h4>Estou fazendo o back do projeto SolaryEnergia, o front foi feito com Angular.</4>
+    <li>C#</li>
+    <li>dotNet</li>
+    <li>SQL Server</li>
 </ul>
 
-
-#
- ```` bash 
- #endereço do  repositorio do front
- $  git@github.com:Elianehenri/SolaryEnergiaFront.git 
- ````
- 
-#
+<p>Para executar esse projeto: </p>
 <ul>
-<li>Para executar esse projeto: 
-         abra o terminal na pasta onde deseja clonar o projeto.</li>
+         <li>Abra o terminal na pasta onde deseja clonar o projeto.</li>
 </ul>
 
 ```` bash
