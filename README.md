@@ -11,7 +11,7 @@ Projeto de Cadastro de Unidades Solares utilizando  C# no BackEnd e SQL Server n
     <li>dotNet</li>
     <li>SQL Server</li>
 </ul>
-
+<p style="margin-top: 20px">
 <p>Para executar esse projeto: </p>
 <ul>
          <li>Abra o terminal na pasta onde deseja clonar o projeto.</li>
@@ -41,7 +41,7 @@ a ConnectionString, seguindo o exemplo 👇</li><br>
    ```bash  
     $ dotnet run 
    ```
-   
+  <p style="margin-top: 20px"> 
 <div align="center" width="100%">
 <img class="logo-nav" height="45%" width="90%" src="/imagem.png" alt="img imagem">
 <img class="logo-nav" height="45%" width="45%" src="imagem1.png" alt="img imagem1">
