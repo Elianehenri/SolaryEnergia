@@ -2,6 +2,23 @@
 <h1 align="center">
     <img alt="ProShop" title="#ProShop" src="./github/logo.png" />
 </h1>
+<p align="center">
+    PROSHOP é um projeto baseado no curso <a href="https://www.udemy.com/course/mern-ecommerce/">MERN eCommerce from Scratch</a>
+</p>
+<p align="center">
+   <img alt="Made With ReactJS" src="https://img.shields.io/static/v1?label=React%20JS&message=%20&color=61DAFB&style=flat-square&logo=react"> 
+    </p>
+    
+    <p align="center">
+ <a href="#-sobre-o-projeto">Sobre</a> •
+ <a href="#-funcionalidades">Funcionalidades</a> •
+ <a href="#-layout">Layout</a> • 
+ <a href="#-como-executar-o-projeto">Como executar</a> • 
+ <a href="#-tecnologias">Tecnologias</a> • 
+ <a href="#-autor">Autor</a> • 
+ <a href="#user-content--licença">Licença</a>
+</p>
+
 Projeto de Cadastro de Unidades Solares utilizando  C# no BackEnd e SQL Server no banco de dados.
 #
 
