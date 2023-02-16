@@ -1,11 +1,9 @@
 # SolaryEnergia     
-<h1 align="center">
-    <img alt="SolaryEnergia" title="#SolaryEnergia" src="./github/logo.png" />
-</h1>
+
 
 
     
-    <p align="center">
+  <p align="center">
  <a href="#-sobre-o-projeto">Sobre</a> •
  <a href="#-funcionalidades">Funcionalidades</a> •
  <a href="#-layout">Layout</a> • 
@@ -18,7 +16,7 @@
 Projeto de Cadastro de Unidades Solares utilizando  C# no BackEnd e SQL Server no banco de dados.
 #
 
-<h2>🛠️ Tecnologias Usadas</h2>  
+<h2>🛠️ Tecnologias </h2>  
 <ul>
     <li>C#</li>
     <li>dotNet</li>
